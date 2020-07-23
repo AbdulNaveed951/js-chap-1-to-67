@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+</head>
+<body>
+
+ 
+    <!-- // // question no 6 -->
+    <!-- <script>
+        function temperatureConverter(valNum) {
+          valNum = parseFloat(valNum);
+          document.getElementById("outputCelcius").innerHTML=(valNum-32)* 5/9;
+        }
+        
+        
+        </script> -->
+<!-- 
+        ///--- question no 15------///
+        <h2>Clickable Dropdown</h2>
+        <p>Click on the button to open the dropdown menu.</p>
+        
+        <div class="dropdown">
+          <button onclick="myFunction()" class="dropbtn">Dropdown</button>
+          <div id="myDropdown" class="dropdown-content">
+            <a href="#Apple">Apple</a>
+            <a href="#Samsung">Samsung</a>
+            <a href="#Sony">Sony</a>
+            <a href="#Motorola">Motorola</a>
+            <a href="#Nokia">Nokia</a>
+            <a href="#Hair">Hair</a>
+          </div>
+        </div>
+        
+        <script>
+        /* When the user clicks on the button, 
+        toggle between hiding and showing the dropdown content */
+        function myFunction() {
+          document.getElementById("myDropdown").classList.toggle("show");
+        }
+        
+        // Close the dropdown if the user clicks outside of it
+        window.onclick = function(event) {
+          if (!event.target.matches('.dropbtn')) {
+            var dropdowns = document.getElementsByClassName("dropdown-content");
+            var i;
+            for (i = 0; i < dropdowns.length; i++) {
+              var openDropdown = dropdowns[i];
+              if (openDropdown.classList.contains('show')) {
+                openDropdown.classList.remove('show');
+              }
+            }
+          }
+        }
+        </script> -->
+         <!-- // chap 38 to 42 -->
+<!-- 
+// question no 6
+some code app.js
+<input id="input" type="text" value="">
+<div id="output"></div>
+<button onclick="submit()">Go!</button> -->
+
+<!-- 
+    question no 9 -->
+    <!-- some code app.js -->
+<!--     
+    <input id="name" value="Abdul Naveed"></input>
+<input id="hours" value=40></input>
+<br>
+<span id="pay">0</span>
+<br>
+<button id="submit" onclick="paySalary()">Submit</button> -->
+
+
+<!-- // chap 43 to 48
+// question no 1
+<a href="www.link.com" onclick="alert('hello world')">www.link com</a>; -->
+
+<!-- // question no 2
+<img src="p1.webp" onclick="alert('Thanks for purchasing samsung mobile')">; -->
+
+  <!-- question no 3 
+ <table id="myTable" style="padding:8px;border:1px solid black">
+    <tr>
+      
+      <td>Naveed</td>
+      <td>python</td>
+      <td>98 mrks</td>
+    </tr>
+    <tr>
+      <td>Abdullah</td>
+      <td>javascript</td>
+      <td>94 mrks</td>
+    </tr>
+    <tr>
+      <td>hammad</td>
+      <td>c language</td>
+      <td>80 mrks</td>
+    </tr>
+    
+    <tr>
+        <td>osama</td>
+        <td>jave language</td>
+        <td>84 mrks</td>
+      </tr>
+      
+    <tr>
+        <td>umair</td>
+        <td>c# language</td>
+        <td>89 mrks</td>
+      </tr>
+      
+    <tr>
+        <td>mobbi</td>
+        <td>c language</td>
+        <td>89 mrks</td>
+      </tr>
+      
+    <tr>
+        <td>asad</td>
+        <td>c language</td>
+        <td>89 mrks</td>
+      </tr>
+  </table>
+  
+  <p>
+  <input type="button" value="Delete one Row"
+  onclick="document.getElementById('myTable').deleteRow(0)"> 
+  </p>  -->
+<!--   
+  question no 4 
+     <img width="600px" src="p1.webp" onMouseover="src='pix2.jpg'" onMouseout="src='p1.webp'">  -->
+ <!-- question no 5
+<button id="increment">increment</button>
+<button id="decrement">decrement</button>
+<span>0</span>
+     -->
+
+        <!-- chap 49 to 52
+
+
+      question no 1
+     some file app.js
+    <form id="name-form">
+      <p>
+        <label> your first name</label><br><br>
+        <input type="text" name="fullname"><br>
+       </p>
+      <p><input type="submit" value="submit"></p>
+    </form>
+    <p id="result"></p>
+       -->
+
+      <!-- // question no 2
+     <style>
+      #more {display: none;}
+      </style>
+     <h2>Short Interview of Me</h2>
+     <table>
+     <tr>
+     <td>Abdul naveed</td>
+     </tr>
+     </table>
+     
+     <span id="dots">...</span><span id="more">Salam i am abdul naveed.
+     i am student of (BSCS) From iqra university 4th semester
+     i want own software house inshallah i will make software house one day (Ameen)
+     </span>
+     <button onclick="myFunction()" id="myBtn">Read more</button>
+     
+     <script>
+     function myFunction() {
+       var dots = document.getElementById("dots");
+       var moreText = document.getElementById("more");
+       var btnText = document.getElementById("myBtn");
+     
+       if (dots.style.display === "none") {
+         dots.style.display = "inline";
+         btnText.innerHTML = "Read more"; 
+         moreText.style.display = "none";
+       } else {
+         dots.style.display = "none";
+         btnText.innerHTML = "Read less"; 
+         moreText.style.display = "inline";
+        }
+     }
+     </script> -->
+     
+     <!-- question no 3
+     some file app.js
+<div id="wrapper">
+  <table align='center' cellspacing=2 cellpadding=5 id="data_table" border=1>
+  <tr>
+  <th>Name</th>
+  <th>Country</th>
+  <th>Age</th>
+  </tr>
+  
+  <tr id="row1">
+  <td id="name_row1">A.naveed</td>
+  <td id="country_row1">Pakistan</td>
+  <td id="age_row1">20</td>
+  <td>
+  <input type="button" id="edit_button1" value="Edit" class="edit" onclick="edit_row('1')">
+  <input type="button" id="save_button1" value="Save" class="save" onclick="save_row('1')">
+  <input type="button" value="Delete" class="delete" onclick="delete_row('1')">
+  </td>
+  </tr>
+
+  <tr id="row2">
+  <td id="name_row2">umair</td>
+  <td id="country_row2">Pakistan</td>
+  <td id="age_row2">19</td>
+  <td>
+  <input type="button" id="edit_button2" value="Edit" class="edit" onclick="edit_row('2')">
+  <input type="button" id="save_button2" value="Save" class="save" onclick="save_row('2')">
+  <input type="button" value="Delete" class="delete" onclick="delete_row('2')">
+  </td>
+  </tr>
+  
+  <tr id="row3">
+  <td id="name_row3">saad</td>
+  <td id="country_row3">Pakistan</td>
+  <td id="age_row3">19</td>
+  <td>
+  <input type="button" id="edit_button3" value="Edit" class="edit" onclick="edit_row('3')">
+  <input type="button" id="save_button3" value="Save" class="save" onclick="save_row('3')">
+  <input type="button" value="Delete" class="delete" onclick="delete_row('3')">
+  </td>
+  </tr>
+  
+  <tr>
+  <td><input type="text" id="new_name"></td>
+  <td><input type="text" id="new_country"></td>
+  <td><input type="text" id="new_age"></td>
+  <td><input type="button" class="add" onclick="add_row();" value="Add Row"></td>
+  </tr>
+  
+  </table>
+  </div>
+   -->
+
+
+   <div> <h1> DOM </h1> 
+    <div id=”form-content” class=”content”> 
+      <label  for=”first-name”>First Name</label> 
+      <input  type="text" id="naveed"/>
+      <button onclick="xyz()">check</button>
+      <label for=”last-name”>Last Name</label> 
+      <input type=”text” id=”last-name”   >
+       <label for=”email”>Email</label>
+       <input type="text" id="email" value="Some text">
+        <button onclick="myFunction()">Try it</button> 
+        
+        <br> 
+      </div> 
+      <div id=”main-content” class=”content”>
+         <p class=”render”> First Name : Alex</p>
+          <p class=”render” id=”lastName”>Last Name: Bank</p> 
+          <p class=”render”> Email : alexbank@example.com</p>
+           <p class=”render”> Country : Pakistan </p>
+            <p class=”render”> contact : +92 300 1234567</p>
+            <button onclick="Monday()">Go</button>
+             
+  </div> </div> 
+
+
+<script src="app.js"></script>
+</body>
+</html>
